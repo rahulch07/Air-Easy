@@ -1,0 +1,154 @@
+body{
+   background-color: #00BFFF;
+   color: #fff;
+}
+
+#header-nav{
+    background-color: #001D4B;
+    border-radius: 0;
+    border: 0;
+}
+
+/* Logo and Name */
+#logo-img{
+    
+    width: 80px;
+    height: 80px;
+    margin: 10px 0px 10px 10px;
+}
+
+  .navbar-brand h1 { /* Restaurant name */
+    
+    color: #fff;
+    
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 20px;
+    margin-left: 10px;
+    }
+    #header-nav .container{
+        width: 100%;
+    }
+    .navbar-brand a:hover, .navbar-brand a:focus {
+        text-decoration: none;
+      }
+
+/* Header Buttons */
+#nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #fff;
+    text-align: center;
+  }
+  #nav-list a:hover {
+      color:#00BFFF ;
+  }
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #fff;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -65px;
+  }
+  .navbar-header button.navbar-toggle:hover{
+      background-color: transparent;
+  }
+  .line{
+      margin: 0px 10px 0px 10px;
+      color: white;
+  }
+
+  #main-content{
+    width: 100%;
+    padding: 0;
+    margin-top: -20px;
+  }
+  .container .jumbotron {
+    
+    margin: 0;
+    padding: 0;
+  }
+.container .jumbotron img{
+  margin-right: 0;
+}
+
+#block1{
+  margin-top: 30px;
+  background-color: #fff;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px #3F0C1F;
+  color: black;
+}
+#block1 span{
+  font-size: 3em;
+  margin-left: 40px;
+  margin-top: 20px;
+  position: relative;
+  top: 20px;
+}
+#block1 p{
+  font-size: 1.1em;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+#block2{
+  margin-top: 30px;
+  background-color: #fff;
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0 0 50px #3F0C1F;
+  color: black;
+}
+#block2 span{
+  font-size: 3em;
+  margin-left: 40px;
+  margin-top: 20px;
+  position: relative;
+  top: 20px;
+}
+#middle-section{
+  color: #fff;
+  text-align: center;
+  height: 500px;
+}
+
+#footer{
+  height: 125px;
+  background-color: #595959;
+  width: 100%;
+  margin-top: 20px;
+  
+}
+#footer-row{
+
+}
+#footer-row h4{
+  text-align: center;
+}
+
+
+
+@media (min-width: 1200px) {
+
+}
+    
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #logo-img{
+        margin-left: 00px;
+    }
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    
+
+}
+
+@media (max-width: 767px) {
+    .navbar-brand h1 { /* Restaurant name */
+        margin-left: -5px;
+        }
+}
